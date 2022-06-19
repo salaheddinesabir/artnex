@@ -1,0 +1,29 @@
+.faq-container {
+    width: inherit;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+.faq-container h2 {
+    width: 20%;
+    border-color: black;
+    border-style: solid;
+    border-width: 6px 0px 0px 0px;
+    margin: 0px 15px 0px 0px;
+}
+.accordion-container {
+    width: 80%;
+    margin: 0;
+}
+.accordion-container .panel {
+    margin-bottom: 32px;
+    background: #fff0!important;
+    width: 100%;
+    text-align: left;
+    transition: .4s;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+}
